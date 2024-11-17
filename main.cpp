@@ -11,7 +11,7 @@
 
  int main()
 {
-    // Demande à l'utilisateur la longueur et les types de caractères pour le mot de passe
+    // Demande Ã  l'utilisateur la longueur et les types de caractÃ¨res pour le mot de passe
     int length;
     bool useLowercase;
     bool useUppercase;
@@ -19,24 +19,24 @@
     bool useSpecialChars;
     cout << "Enter password length: ";
     cin >> length;
-    cout << "Use lowercase characters? (y/n): ";
+    cout << "Use lowercase characters ? (y/n): ";
     char response;
     cin >> response;
     useLowercase = (response == 'y' || response == 'Y');
-    cout << "Use uppercase characters? (y/n): ";
+    cout << "Use uppercase characters ? (y/n): ";
     cin >> response;
     useUppercase = (response == 'y' || response == 'Y');
     cout << "Use numbers? (y/n): ";
     cin >> response;
     useNumbers = (response == 'y' || response == 'Y');
-    cout << "Use special characters? (y/n): ";
+    cout << "Use special characters ? (y/n): ";
     cin >> response;
     useSpecialChars = (response == 'y' || response == 'Y');
 
-    // Crée un générateur de mot de passe avec les paramètres spécifiés
+    // CrÃ©e un gÃ©nÃ©rateur de mot de passe avec les paramÃ¨tres spÃ©cifiÃ©s
     PasswordGenerator generator(length, useLowercase, useUppercase, useNumbers, useSpecialChars);
 
-    // Génère le mot de passe aléatoire et l'affiche à l'utilisateur
+    // GÃ©nÃ¨re le mot de passe alÃ©atoire et l'affiche Ã  l'utilisateur
     string password = generator.generatePassword();
     cout << "Generated password: " << password << endl;
 
