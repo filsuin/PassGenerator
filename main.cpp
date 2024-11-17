@@ -26,7 +26,7 @@
     cout << "Use uppercase characters ? (y/n): ";
     cin >> response;
     useUppercase = (response == 'y' || response == 'Y');
-    cout << "Use numbers? (y/n): ";
+    cout << "Use numbers ? (y/n): ";
     cin >> response;
     useNumbers = (response == 'y' || response == 'Y');
     cout << "Use special characters ? (y/n): ";
