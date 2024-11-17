@@ -50,9 +50,9 @@ You will be prompted to enter the password length and specify whether to use low
 
 ```sh
 Enter password length: 12
-Use lowercase characters? (y/n): y
-Use uppercase characters? (y/n): y
-Use numbers? (y/n): y
-Use special characters? (y/n): y
+Use lowercase characters ? (y/n): y
+Use uppercase characters ? (y/n): y
+Use numbers ? (y/n): y
+Use special characters ? (y/n): y
 Generated password: aB1!dE2@fG3#
 ```
